@@ -1,0 +1,24 @@
+*,
+::before,
+::after {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+body {
+    height: 100dvh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #282c34;
+    overflow: hidden;
+    color: #2bfa02;
+}
+
+h1 {
+    color: #21252b;
+    font-size: 5rem;
+}
